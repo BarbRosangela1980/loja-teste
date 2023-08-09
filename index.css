@@ -1,0 +1,90 @@
+*{
+    margin: 0; padding: 0;
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-style: inherit;
+    background-image: url(imagem/garota.jpeg);
+    background-size: cover;
+}
+
+h1{
+       text-align:left;
+       margin: 100px;
+       color: #211c1c;
+       font-size: x-large;
+       font-family: 'Poppins, Helvetica, sans-serif';
+       font-size: 70px;
+       margin-bottom: 5px;    
+}
+
+ h2{
+        text-align:left;
+        margin: 100px;
+        color: #121111;
+        font-size: x-large;
+        font-family: 'Poppins, Helvetica, sans-serif';
+        font-size: 38px;
+        margin-top: 5px; 
+}
+.menu{
+    list-style:none; 
+    border: 20px; solid: #c0c0c0; 
+    float:left; 
+    font-weight: bold;
+    gap: 1px;
+    }
+
+    .menu li{
+    position:relative;
+    float:left;
+    border-right:1px solid: #333;
+    } 
+
+    .menu li a{
+        color:#0f0f8d; 
+        text-decoration:none; 
+        padding:5px 10px; 
+        display:block;  
+    }
+
+    .menu li a:hover{
+    background:#f5bcbc;
+    color:#cd0562;
+    -moz-box-shadow:0 3px 10px 0 #c57915; 
+    -webkit-box-shadow:0 3px 10px 0 #3811c6;
+    text-shadow:0px 0px 5px #ffffff;
+    } 
+    .menu li ul{
+        position:absolute; 
+        top:25px; 
+        left:0;
+        background: color #f0111c;
+        display:none;
+        }
+            
+    .menu li:hover ul, .menu li.hover ul{display:block;} 
+             
+    .menu li ul li{
+        border:1px solid: #18abc5;
+        display:block; 
+        width:150px;
+
+    }
+
+.texto{
+  column-count: 1; /* Número de colunas */
+  column-gap: 20px; /* Espaçamento entre as colunas */
+  max-width: 600px; /* Largura máxima das colunas */
+  margin: 0 auto; /* Centralizar o conteúdo */
+  padding: 20px; /* Espaçamento interno */
+  float: left;
+  font-family: 'Poppins, Helvetica, sans-serif';
+  text-align: justify;
+  font-size: 1.5em;
+ 
+}

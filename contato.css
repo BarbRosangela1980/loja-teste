@@ -1,0 +1,48 @@
+/*CSS DO CONTATO*/
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: inherit;
+    background-image: url(imagem/Fukushima.jpg);
+    background-size: cover;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: -1rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1b0cf5c0;
+    font-size: 30px;
+}
+
+/*CAIXA DE TEXTO*/
+.caixa {
+
+    align-items: center;
+    margin: 0.5rem;
+    text-decoration-color:#1b0cf5c0;
+    color:#1b0cf5c0;
+    font-size: 30px;
+}
+
+/*BOTÃO ENVIAR*/
+.botao {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5px;
+}
+
+/*CLICK VOLTAR*/
+.voltar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color:#1b0cf5c0;
+    font-size: 20px;
+}

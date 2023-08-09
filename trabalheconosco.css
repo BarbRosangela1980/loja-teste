@@ -1,0 +1,116 @@
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(227, 201, 170);
+  }
+  
+  header {
+    background-color: #333;
+    color: #cdcbd9;
+    padding: 10px;
+    font-size: 30px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section h2 {
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+  } 
+  section {
+    padding: 20px;
+    
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  fieldset {
+    margin-bottom: 20px;
+   
+ 
+  }
+  
+  legend {
+    font-weight: bold;
+    
+  }
+  
+ 
+  label,
+  input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+  
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+   
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #cdcbd9;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  a {
+    display: block;
+    margin-top: 20px;
+    color: #350cd9;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Estilo para dispositivos móveis */
+  @media screen and (max-width: 600px) {
+    header {
+      text-align: center;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    a {
+      margin: 0 auto;
+    }
+  }

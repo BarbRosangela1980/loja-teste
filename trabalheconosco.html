@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhe Conosco</title>
+    <link rel="stylesheet" href="trabalheconosco.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/trabalheconosco.html">Trabalhe Conosco</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <!-- Conteúdo da página inicial -->
+
+  <section id="trabalhe-conosco">
+    <h2>Cadastre-se!</h2>
+    <form action="enviar_formulario.php" method="post">
+      <fieldset>
+        <legend>Informações Pessoais</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+       
+        <label for="telefone">E-mail:</label>
+        <input type="tel" id="telefone" name="telefone" required>
+    
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>Experiência Profissional</legend>
+        <label for="experiencia">Experiência Profissional:</label>
+        <textarea id="experiencia" name="experiencia" rows="4" required></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>Formação e Cursos</legend>
+        <label for="formacao">Encino médio:</label>
+        <input type="text" id="formacao" name="formacao" required>
+        <label for="formacao">Curso Técnico:</label>
+        <input type="text" id="formacao" name="formacao" required>
+        <label for="formacao">Encino superior:</label>
+        <input type="text" id="formacao" name="formacao" required>
+        <label for="formacao">Pós-Graduação:</label>
+        <input type="text" id="formacao" name="formacao" required>
+        <label for="formacao">Especialização:</label>
+        <input type="text" id="formacao" name="formacao" required>
+        <label for="cursos">Cursos Realizados:</label>
+        <input type="text" id="cursos" name="cursos" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>Redes Sociais</legend>
+        <label for="redes-sociais">Facebook:</label>
+        <input type="text" id="redes-sociais" name="redes-sociais">
+        <label for="redes-sociais">Linkedin:</label>
+        <input type="text" id="redes-sociais" name="redes-sociais">
+        <label for="redes-sociais">GitHub:</label>
+        <input type="text" id="redes-sociais" name="redes-sociais">
+    </fieldset>
+        
+        <fieldset>
+            <legend>Fale sobre você e suas experiências profissionais</legend>
+            <label for="redes-sociais">Sobre você:</label>
+            <textarea name="caixa" cols="25" rows="5" id="caixa" required> </textarea>
+           
+              <label for="suas experiencia"> Suas experiências:</label>
+            <textarea name="caixa" cols="25" rows="5" id="caixa" required></textarea>
+      </fieldset>
+
+      <input type="submit" value="Enviar">
+    </form>
+    <a href="index.html">Voltar à Página Inicial</a>
+  </section>
+
+</body>
+</html>

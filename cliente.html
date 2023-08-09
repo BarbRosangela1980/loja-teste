@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente</title>
+    <link rel="stylesheet" href="cliente.css">
+   
+
+</head>
+<body>
+    <br><fieldset>
+        <legend>Dados Pessoais</legend>
+   
+    <table cellspacing="10">
+        <tr>
+            <td>
+                <label for="nome"> Nome: </label>
+            </td>
+            <td align="left">
+                <input type="text" name="nome">
+            </td>
+        <td>
+            <label for="sobrenome"> Sobrenome:</label>
+            </td>
+            <td align="left">
+                <input type="text" name="sobrenome">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Nascimento:</label>
+            </td>
+            <td align="left">
+                <input type="text" name="dia" size="2" maxlength="2" value="dd">
+                <input type="text" name="mes" size="2" maxlength="2" value="mm">
+                 <input type="text" name="ano" size="4" maxlength="4" value="aaaa">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="rg"> RG: </label>
+            </td>
+            <td align="left">
+            <input type="text" name="rg" size="13" maxlength="13">
+            </td>
+        </tr>
+     <tr>
+        <td>
+            <albel>CPF:</albel>
+        </td>
+        <td align="left">
+            <input type="text" name="cpf" size="9" maxlength="9">-<input type="text" name="cpf2" size="2" maxlength="2">
+        </td>
+     </tr>   
+     </table>
+    </fieldset> </br>
+    
+    
+    <!--ENDEREÇO-->
+<br><fieldset>
+        <legend> Dados de Endereço</legend>
+        <table cellspacing="10">
+            <tr>
+                <td>
+                    <label for="rua"> Rua:</label>
+                </td>
+                <td>
+                    <td align="left">
+                        <input type="text" name="rua">
+                </td>
+                <tr>
+                    <td>
+                        <label for="bairro"> Bairro:</label>
+                    </td>
+                    <td>
+                        <td align="left">
+                            <input type="text" name="Bairro">
+                    </td> 
+                </tr>                  
+            <tr>               
+                <td>
+                    <label for="numero">Numero:</label>
+                </td>
+                <td align="left">
+                    <input type="text" name="numero" size="4">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="estado"> Estado:</label>
+                </td>
+                <td align="left">
+                    <select name="estado">
+                        <Option value="ac"> Acre</Option> 
+                        <Option value="al"> alagoas</Option>
+                        <option value="am"> Amazonas</Option>
+                        <Option value="ap"> Amapa</Option> 
+                        <Option value="ba"> Bahia</Option>
+                        <option value="ce"> Ceara</Option>
+                        <Option value="df"> Distrito Feeral</Option> 
+                        <Option value="es"> Espítito Santos</Option>
+                        <option value="go"> Góias</Option>
+                        <Option value="ma"> Maranhão</Option> 
+                        <Option value="mt"> Mato Grosso</Option>
+                        <option value="ms"> Mato Grossso do Sul</Option> 
+                        <Option value="mg"> Minas Gerais</Option> 
+                        <Option value="pa"> Pará</Option>
+                        <option value="pb"> Paraíba</Option>
+                        <Option value="pr"> Paraná</Option>
+                        <option value="pe"> Pernambuco</Option> 
+                        <Option value="pi"> Piauí</Option>
+                        <option value="rj"> Rio de Janeiro</Option>
+                        <Option value="rn"> Rio Grande do Norte</Option> 
+                        <Option value="ro"> Rondônia</Option>
+                        <option value="rs"> Rio Grande do Sul</Option>
+                        <Option value="rr"> Roraima</Option> 
+                        <Option value="sc"> Santa Catarina</Option>
+                        <option value="se"> Sergipe</Option>  
+                        <Option value="sp"> São Paulo</Option>
+                        <option value="to"> Tocantins</Option>        
+                    </select>
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cidade"> Cidade:</label>
+                </td>
+                <td align="left">
+                    <input type="test" name="cidade">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <label for="cep"> CEP:</label>
+                </td>
+                <td align="left">
+                    <input type="text"name="cep" size="2" maxlength="2">-<input type="text" name="cep2" size="6" maxlength="6"> 
+                </td>
+            </tr>
+        </table>
+
+    </fieldset></br>
+
+     <!--DADOS DE LOGIN-->
+    <br><fieldset>
+        <legend> Dados de login</legend>
+        <table cellspacing="10">
+            <tr>
+                <td>
+                    <label for="email"> E-mail:</label>
+                </td>
+                <td align="left">
+                        <input type="text" name="email">
+                </td>
+            </tr>
+            <tr>
+                    <td>
+                        <label for="pass"> Senha:</label>
+                    </td>
+                        <td align="left">
+                        <input type="password" name="pass">
+                    </td> 
+                </tr>                  
+            <tr>               
+                <td>
+                    <label for="pasconfirm">Confirme a senha:</label>
+                </td>
+                <td align="left">
+                    <input type="password" name="passconfirm">
+                </td>
+            </tr>
+        </table>
+
+    </fieldset>
+                 
+    <br />
+    <br><input type="submit">
+    <input type="reset" value="Limpa"></br>
+    </form>
+    <br><a href="index.html">Voltar a pagina inicial</a></br>
+        
+</body>
+</html>
