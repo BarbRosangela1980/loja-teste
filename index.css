@@ -1,8 +1,20 @@
 *{
     margin: 0; padding: 0;
+
+}
+
+@font-face {
+    font-family:"niagato" ;
+    src: url(Fonte/Niagato.ttf);
+}
+.logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
 }
 
 body{
+
 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -14,14 +26,18 @@ body{
 
 h1{
        text-align:left;
-       margin: 100px;
        color: #211c1c;
        font-size: x-large;
-       font-family: 'Poppins, Helvetica, sans-serif';
+       font-family: 'Niagato';
        font-size: 70px;
-       margin-bottom: 5px;    
+       
+        
 }
-
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
  h2{
         text-align:left;
         margin: 100px;
@@ -37,6 +53,7 @@ h1{
     float:left; 
     font-weight: bold;
     gap: 1px;
+    margin-bottom: 35px;
     }
 
     .menu li{

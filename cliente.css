@@ -37,7 +37,7 @@ form {
     border-color: #111;
     background:#111;
     display: inline-flex;
-    color:#fff;
+    color:#ffffff;
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
@@ -53,7 +53,7 @@ a {
     text-decoration: none;
     transition: 0.3s;
     cursor: pointer;
-    color: rgb(6, 4, 125);
+    color: rgb(25, 22, 238);
     font-size: 20px;
   }
 

@@ -1,0 +1,168 @@
+/*Reset*/
+
+
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+      body{
+        background-color: antiquewhite;
+      }
+     
+    /*cabeçalho*/
+    
+    h1,p {
+    text-align:center;
+    color: rgb(85, 78, 78);
+    } 
+    
+    h1 {
+    margin-top:50px;
+    margin-bottom:20px;
+    color: rgb(12, 1, 38);
+    
+    }
+    h4{
+      margin-bottom: 1.5rem; margin-top: 1.5rem;
+    }
+     
+    
+    /*galeria*/
+    
+    .container {
+    width: 100%;  
+    text-align:center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3, 1fr); 
+    }
+    
+    .card {
+    border:2px solid rgb(21, 1, 48);
+    border-radius:5px;
+    }
+
+    .botao__comprar{
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5px;
+    }
+    
+    .card-imagem:hover{
+    background-color: aliceblue;
+    color: rgb(18, 16, 15);
+    border-color: rgb(246, 164, 164);
+    
+    
+    
+    }
+    
+    .card-imagem {
+    height:300px;
+    width: 100%;
+    background-size:cover;
+    transition:.5s;
+    
+    
+    }
+    
+    .produto-1 .card-imagem{
+    background-image:url(imagem/camisetab.jpg);
+    }
+    .produto-1 .card-imagem:hover{
+    
+    background-image:url(imagem/camisetap.jpg);
+    
+    }
+    
+    .produto-2 .card-imagem{
+    background-image:url(imagem/brico.jpeg);
+        
+     }
+    
+    .produto-3 .card-imagem{
+    background-image:url(imagem/pulseira.jpgS);
+            
+     }
+    
+    .produto-4 .card-imagem{
+    background-image:url(pets/kitbanho2.jpg);
+    }   
+    
+    .produto-5 .card-imagem{
+    background-image:url(pets/pente.jpg);
+    }   
+    
+    .produto-6 .card-imagem{
+    background-image:url(pets/ração.jpg);
+    }   
+    
+    
+    .produto-7 .card-imagem{
+    background-image:url(pets/ração4.jpg);
+    }   
+    
+    .produto-8 .card-imagem{
+    background-image:url(pets/produto.jpg);
+    }
+
+
+
+.botao__comprar:hover{
+    background-color: rgb(3, 250, 65);
+    color: rgb(16, 1, 39);
+    border-color: rgb(241, 134, 134);
+    
+    }
+    .botao__comprar{
+      border:2px solid black;
+    width:40%;
+    padding:0.1rem;
+    border-radius:5px;
+    }
+    
+    .card-description{
+    padding:20px 10px;
+    
+    }
+    
+    /* responsivo*/
+    
+    @keyframes container {
+        0% {
+          opacity: 0;
+        }
+        25% {
+          opacity: 1;
+        }
+        75% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+    /* Estilo do rodapé (footer) */
+    
+    footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding:10px;
+    
+    }
+    
+    a{
+    display: block;
+    text-align: center;
+    
+    color:rgb(14, 7, 7);
+    text-decoration:none;
+    margin-top:0;
+    transition:0.9s;
+    
+    }
