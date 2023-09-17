@@ -1,12 +1,10 @@
 /*Reset*/
 
-
 * {
     box-sizing: border-box;
     padding:0;
     margin:0;
     font-family: 'Times New Roman', Times, serif;
-    
     }
     
       body{
@@ -15,21 +13,23 @@
      
     /*cabeçalho*/
     
-    h1,p {
+    h1,h3 {
     text-align:center;
-    color: rgb(85, 78, 78);
+    color: blue;
     } 
     
     h1 {
     margin-top:50px;
     margin-bottom:20px;
-    color: rgb(12, 1, 38);
+    color: blue;
     
     }
     h4{
       margin-bottom: 1.5rem; margin-top: 1.5rem;
     }
-     
+    .titulo-certificados{
+      margin-bottom: 0px;
+    }
     
     /*galeria*/
     
@@ -56,73 +56,99 @@
     background-color: aliceblue;
     color: rgb(18, 16, 15);
     border-color: rgb(246, 164, 164);
-    
-    
-    
     }
-    
+
     .card-imagem {
     height:300px;
     width: 100%;
     background-size:cover;
     transition:.5s;
-    
-    
     }
-    
+
     .produto-1 .card-imagem{
     background-image:url(imagem/camisetab.jpg);
     }
     .produto-1 .card-imagem:hover{
-    
     background-image:url(imagem/camisetap.jpg);
-    
     }
-    
     .produto-2 .card-imagem{
-    background-image:url(imagem/brico.jpeg);
-        
-     }
-    
-    .produto-3 .card-imagem{
-    background-image:url(imagem/pulseira.jpgS);
-            
-     }
-    
-    .produto-4 .card-imagem{
-    background-image:url(pets/kitbanho2.jpg);
-    }   
-    
-    .produto-5 .card-imagem{
-    background-image:url(pets/pente.jpg);
-    }   
-    
-    .produto-6 .card-imagem{
-    background-image:url(pets/ração.jpg);
-    }   
-    
-    
-    .produto-7 .card-imagem{
-    background-image:url(pets/ração4.jpg);
-    }   
-    
-    .produto-8 .card-imagem{
-    background-image:url(pets/produto.jpg);
+    background-image:url(imagem/blusa-moletom-capuz-senku-F.jpg);  
     }
-
-
+    .produto-2 .card-imagem:hover{
+    background-image:url(imagem/blusa-moletom-capuz-senku-T.jpg);
+    }
+    .produto-3 .card-imagem{
+    background-image:url(imagem/camisa-sailor-F.jpg);      
+    }
+    .produto-3 .card-imagem:hover{
+    background-image:url(imagem/camisa-sailor-T.jpg);
+    } 
+    .produto-4 .card-imagem{
+    background-image:url(imagem/camisa-hunter-F.jpg);
+    }
+    .produto-4 .card-imagem:hover{
+    background-image:url(imagem/camisa-hunter-T.jpg);
+    }    
+    .produto-5 .card-imagem{
+    background-image:url(imagem/Manto-cosplay-1.jpg);
+    }
+    .produto-5 .card-imagem:hover{
+    background-image:url(imagem/capa-kimono-Slayer.jpg);
+    }    
+    .produto-6 .card-imagem{
+    background-image:url(imagem/manto-akatsuki.jpg);
+    }
+    .produto-6 .card-imagem:hover{
+    background-image:url(imagem/manto-akatsuki-F-T.jpg);
+    }    
+    .produto-7 .card-imagem{
+    background-image:url(imagem/fantasia-cosplay-tsunade.F-T.jpg);
+    }
+    .produto-7 .card-imagem:hover{
+    background-image:url(imagem/fantasia-cosplay-tsunade.webp);
+    }    
+    .produto-8 .card-imagem{
+    background-image:url(imagem/vestido-anime-adulto-1.jpg);
+    }
+    .produto-8 .card-imagem:hover{
+    background-image:url(imagem/vestido-anime-adulto-2.jpg);
+    }
+    .produto-9 .card-imagem{
+    background-image:url(imagem/brincos-spy-x-family.jpg);
+    }
+    .produto-9 .card-imagem:hover{
+    background-image:url(imagem/brincos-spy-x-family-1.jpg);
+    }
+    .produto-10 .card-imagem{
+    background-image:url(imagem/Caneca-Luffy.jpg);
+    }
+    .produto-10 .card-imagem:hover{
+    background-image:url(imagem/Caneca-Luffy-1.jpg);
+    }
+    .produto-11 .card-imagem{
+    background-image:url(imagem/Broche-Deku.jpg);
+    }
+    .produto-11 .card-imagem:hover{
+    background-image:url(imagem/Broche-Deku-1.jpg);
+    }
+    .produto-12 .card-imagem{
+    background-image:url(imagem/pulseira-bracelete-couro.jpg);
+    }
+    .produto-12 .card-imagem:hover{
+    background-image:url(imagem/pulseira-bracelete-couro-1.jpg);
+    }
 
 .botao__comprar:hover{
-    background-color: rgb(3, 250, 65);
-    color: rgb(16, 1, 39);
-    border-color: rgb(241, 134, 134);
+    background-color: rgba(127, 136, 129, 0.66);
+    color: rgba(51, 22, 194, 0.867);
+    border-color: rgb(154, 134, 241);
     
     }
     .botao__comprar{
-      border:2px solid black;
+    border:3px solid rgb(99, 58, 214);
     width:40%;
-    padding:0.1rem;
-    border-radius:5px;
+    padding:0.2rem;
+    border-radius:10px;
     }
     
     .card-description{
@@ -149,20 +175,57 @@
     /* Estilo do rodapé (footer) */
     
     footer{
-    background-color: black;
-    color: aliceblue;
+    color: rgb(13, 93, 163);
     text-align: center;
     padding:10px;
+    background-color: rgb(217, 189, 147);
+    border-top: 3px solid #390404;
+    padding: 3rem;
     
+
     }
     
     a{
     display: block;
     text-align: center;
-    
-    color:rgb(14, 7, 7);
+    color:rgb(18, 6, 189);
     text-decoration:none;
-    margin-top:0;
+    margin-top:5px;
+    margin-bottom: 5px;
     transition:0.9s;
-    
+    font-size: 25px;
+
+    }
+     a:hover{
+      color:#cd0505; 
+    }
+
+    .forma-pagamentos{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 5px;
+      
+    }
+
+    .selo-segurancas-img{
+      width: 200px;
+      height: 50px;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+    @media screen and (max-width: 480px){
+      .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(12,1fr);
+
+      }
+
+    }
+    @media screen and (max-width: 740px){
+      .container{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(4,1fr);
+      }
     }
