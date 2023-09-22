@@ -5,19 +5,21 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: inherit;
-    background-image: url(imagem/Loira.jpeg);
     background-size: cover;
+   
 }
 
 form {
     display: flex;
-    justify-content: center;
     margin-top: -1rem;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #1b0cf5c0;
     font-size: 30px;
+    padding-top: 50px;
+  
 }
+
 
 /*CAIXA DE TEXTO*/
 .caixa {
@@ -45,4 +47,22 @@ form {
     margin-top: 10px;
     color:#1b0cf5c0;
     font-size: 20px;
+}
+.footer{
+    color: rgb(13, 93, 163);
+    text-align: center;
+    background-color: rgb(217, 189, 147);
+    border-top: 3px solid #390404;
+    padding: 3rem;
+  
+}
+@media screen and (max-width: 768px){
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    img[alt="imagem"],
+    textarea {
+        width: 100%;
+    }
+    
 }

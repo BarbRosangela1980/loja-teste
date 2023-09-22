@@ -105,3 +105,75 @@ nav{
   font-size: 1.5em;
  
 }
+
+footer .rodape {
+
+    height: 50px;
+    color: rgb(13, 93, 163);
+    text-align: center;
+    background-color: rgb(217, 189, 147);
+    border-top: 3px solid #390404;
+    padding-top: 50px;
+    padding-bottom: 30px;
+   
+    display: block;
+  
+    
+}
+.rodape {
+    flex: 1;
+    margin-right:10px;
+    padding-inline-end: 10px;
+}
+
+.contato{
+    margin-inline: center;
+    padding: 50px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer-redes-sociais ul li {
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 80px;
+}
+
+
+.imagem{
+max-width: 3%; 
+height: auto; 
+}
+
+
+/*responsivo*/
+
+@media (max-width: 768px) {
+
+.main {
+  flex-direction: column; 
+}
+
+.descricao-loja {
+  width: 100%; 
+
+}
+    .footer-content {
+        flex-direction: column;
+     
+    }
+
+    .footer-section {
+        flex: none;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        
+    }
+}

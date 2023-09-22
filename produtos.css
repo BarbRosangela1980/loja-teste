@@ -154,24 +154,8 @@
     .card-description{
     padding:20px 10px;
     
-    }
-    
-    /* responsivo*/
-    
-    @keyframes container {
-        0% {
-          opacity: 0;
-        }
-        25% {
-          opacity: 1;
-        }
-        75% {
-          opacity: 1;
-        }
-        100% {
-          opacity: 0;
-        }
-      }
+    }  
+   
     /* Estilo do rodapé (footer) */
     
     footer{
@@ -181,7 +165,10 @@
     background-color: rgb(217, 189, 147);
     border-top: 3px solid #390404;
     padding: 3rem;
-    
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px;
 
     }
     
@@ -219,6 +206,8 @@
       .container{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(12,1fr);
+        
+      
 
       }
 
@@ -227,5 +216,8 @@
       .container{
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(4,1fr);
+       
+        
+
       }
     }
