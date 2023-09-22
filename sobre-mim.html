@@ -8,28 +8,95 @@
     <style>
     
    body{
+    margin: 0;
     background-color: rgb(223, 223, 116);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   main{
+    height: 100vh;
+    width: 100vw;
+   }
+   .texto{
+    height: 100%;
+    width: 100%;
    }
 
-   imag{
-        margin-left: 10px;    
-    }
-    footer .rodape {
-        
-    height: 50px;
-    color: rgb(13, 93, 163);
+   .img-titulo{
+       display: flex;
+       align-items: center;
+       
+   }
+   h2{
+    font-size: 3rem;
+   }
+
+  
+.rodape {
+
+height:40vh;
+color: rgb(13, 93, 163);
+text-align: center;
+background-color: rgb(217, 189, 147);
+border-top: 3px solid #390404;
+display: flex;
+align-items: center;
+justify-content: center;
+box-sizing: border-box;
+width: 100%;
+}
+
+.contato{
+margin-inline: center;
+padding: 50px;
+}
+
+.footer ul {
+list-style: none;
+padding: 0;
+box-sizing: border-box;
+
+}
+.redes-sociais ul{
+    list-style-type: none;
+    display: flex;
+ 
+}
+.redes-sociais{
+    height: 20%;
+    width:40% ;
+ 
+
+}
+
+.redes-sociais ul li {
+height: 80%;
+width: 30%;
+
+}
+.icone{
+width: 80%;
+height: 90%;
+}
+
+.imagem{
+width: 10%; 
+height: 10%;
+
+}
+.direitos-reservados{
+    margin-top: 7rem;
+
+}
+.direitos-reservados p{
+    font-weight: bold;
+    color: black;
+}
+.voltar{
     text-align: center;
-    background-color: rgb(217, 189, 147);
-    border-top: 3px solid #390404;
-    padding: 10rem;
-    display: block;
-    box-sizing: border-box;
-    
-    }
-    .imagem{
-       max-width: 3%; 
-       height: auto; 
-    }
+    font-size: 1.5rem;
+}
 
     @media (max-width: 768px) {
   
@@ -52,49 +119,62 @@
     </style>
 
 </head>
+
+
 <body>
-    <div>
+    <h1> Minha história  </h1>
+    <main>
+    <div class="img-titulo">
         <img src="imagem/foto-transp.png" alt="Foto perfil" width="400" height="350">
+        <h2>Rosângela Santos Barbosa</h2>
     </div>
 
-    <h1> Minha história  </h1>
+    
+    <div class="texto">
+        Nossa loja é um estabelecimento especializado em produtos relacionados a séries, filmes e personagens de animação japonesa. Somos conhecida por oferecerem uma vasta gama de produtos, como bonecos, camisetas, chaveiros, canecas, pôsteres, cosplay e muito mais.
+         
+                 Os fãs de anime frequentam nossas lojas pois encontram itens exclusivos, colecionáveis e que não estão facilmente disponíveis em outros lugares. Além disso, a nossa loja também costuma realizar eventos temáticos, como lançamentos de produtos, encontros de fãs, sessões de autógrafos com dubladores e cosplayers.</br>
+                 
+                 
+                 <div class="redes-sociais">
+        
+                    <ul>
+                        <li>
+                            <a  href="https://github.com/BarbRosangela1980"target="_blank">
+                                <img class="imagem" src="imagem/github.png" alt="Git Hub">
+                            </a>
+                        </li>
+                        <li>
+                            <a  href="https://www.linkedin.com/in/rosangela-barbosa-20a2b61a9/"target="_blank">
+                                <img class="imagem" src="imagem/linkedin.png" alt="Linkedin">
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://api.whatsapp.com/send/?phone=%2B5571991656542&text&type=phone_number&app_absent=0"target="_blank">
+                                <img class="imagem" src="imagem/whatsapp.png" alt="whatsaap">
+                            </a>
+                        </li>
+                    </ul>
+                       
+                </div>  
+                 
+            </div>
+      
+    </main>
 
-
-       <a href="index.html"><b>Voltar à página principal</b></a>
+    <p class="voltar"><a  href="index.html"><b>Voltar à página principal</b></a></p>
 
        <footer class="rodape">
-        <div class="resdes-sociais">
-        </div>
-    <ul>
-        <li>
-            <a  href="https://github.com/BarbRosangela1980"target="_blank">
-                <img class="imagem" src="imagem/github.png" alt="Git Hub">
-            </a>
-        </li>
-        <li>
-            <a  href="https://www.linkedin.com/in/rosangela-barbosa-20a2b61a9/"target="_blank">
-                <img class="imagem" src="imagem/linkedin.png" alt="Linkedin">
-            </a>
-        </li>
-        
-        <li>
-            <a href="https://api.whatsapp.com/send/?phone=%2B5571991656542&text&type=phone_number&app_absent=0"target="_blank">
-                <img class="imagem" src="imagem/whatsapp.png" alt="whatsaap">
-            </a>
-        </li>
-    </ul>
-       
-</div>  
-           
-               
-        </div>
-
-
+    
         <div class="contato">
            <p><b>Contato:</p>
            <p>E-mail:loryanimes@animes.com</p>
            <p>Telefone/WhatsApp: +55 (71) 99165-6542</b></p>
+           
+           <div class="direitos-reservados">
            <p>&copy2023 Rosângela S. Barbosa</p>
+           </div>
        </div>
 
       
