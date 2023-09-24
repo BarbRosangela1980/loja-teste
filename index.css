@@ -11,6 +11,7 @@
     width: 120px;
     height: 120px;
     border-radius: 120px;
+    margin: 15px;
 }
 
 body{
@@ -51,7 +52,8 @@ nav{
 }
 .menu{
     list-style:none; 
-    border: 20px; solid: #c0c0c0; 
+    border: 20px;
+    color: #c0c0c0; 
     float:left; 
     font-weight: bold;
     gap: 1px;
@@ -61,7 +63,7 @@ nav{
     .menu li{
     position:relative;
     float:left;
-    border-right:1px solid: #333;
+    border-right:1px solid #c0c0c0; 
     } 
 
     .menu li a{
@@ -72,10 +74,8 @@ nav{
     }
 
     .menu li a:hover{
-    background:#f5bcbc;
     color:#cd0562;
-    -moz-box-shadow:0 3px 10px 0 #c57915; 
-    -webkit-box-shadow:0 3px 10px 0 #3811c6;
+   
     text-shadow:0px 0px 5px #ffffff;
     } 
     .menu li ul{
@@ -89,7 +89,8 @@ nav{
     .menu li:hover ul, .menu li.hover ul{display:block;} 
              
     .menu li ul li{
-        border:1px solid: #18abc5;
+        border:1px; 
+        color: #c0c0c0;
         display:block; 
         width:150px;
 
