@@ -1,12 +1,35 @@
 /*CSS DO CONTATO*/
 
 body{
-    
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: inherit;
     background-size: cover;
    
+}
+header{
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(217, 189, 147);
+    border-bottom: 3px solid #390404;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.img{
+    width: 60vw;
+    height: 100%;
+    background-image: url(imagem/Loira.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+    
 }
 
 form {
@@ -16,10 +39,22 @@ form {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #1b0cf5c0;
     font-size: 30px;
-    padding-top: 50px;
+    height: 94%;
+    width: 40vw;
   
 }
-
+legend h2{
+    margin-top: 4rem;
+  
+   
+}
+.form{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /*CAIXA DE TEXTO*/
 .caixa {
@@ -29,6 +64,7 @@ form {
     text-decoration-color:#1b0cf5c0;
     color:#1b0cf5c0;
     font-size: 30px;
+    
 }
 
 /*BOTÃO ENVIAR*/
@@ -63,6 +99,9 @@ form {
     img[alt="imagem"],
     textarea {
         width: 100%;
+    }
+    img{
+        display: none;
     }
     
 }
