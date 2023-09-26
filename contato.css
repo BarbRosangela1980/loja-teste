@@ -84,6 +84,9 @@ legend h2{
     color:#1b0cf5c0;
     font-size: 20px;
 }
+.voltar :hover{
+    color:#cd0505;  
+}
 .footer{
     color: rgb(13, 93, 163);
     text-align: center;

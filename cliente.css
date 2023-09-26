@@ -55,11 +55,11 @@ a {
     transition: 0.3s;
     cursor: pointer;
     color: rgb(25, 22, 238);
-    font-size: 20px;
+    font-size: 25px;
   }
 
   a:hover {
-    opacity: 0.7;
+    color:#cd0505; 
 }
 
   /* Responsivo */

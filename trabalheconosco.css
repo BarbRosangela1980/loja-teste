@@ -92,7 +92,12 @@
     margin-top: 20px;
     color: #350cd9;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
+    transition:0.9s;
+    margin-top: 3rem;
+  }
+  a:hover{
+    color: #ea1a21;
   }
   
   /* Estilo para dispositivos móveis */
@@ -109,8 +114,9 @@
       margin-right: 0;
       margin-bottom: 10px;
     }
-  
-    a {
-      margin: 0 auto;
-    }
+    a{
+      margin-top: 3rem;
+      margin-bottom: -1rem;
+  } 
+    
   }
