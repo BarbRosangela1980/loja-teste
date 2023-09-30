@@ -4,7 +4,7 @@
     color: rgb(13, 93, 163);
     text-align: center;
     background-color: rgb(217, 189, 147);
-    border-top: 3px solid #390404;
+    border-top: 1px solid #390404;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,6 +12,10 @@
 
 .contato{
     margin-inline: center;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
   
 }
 
@@ -62,44 +66,4 @@ height: 50%;
     font-weight: bold;
     color: black;
    
-   
 }
-/*responsivo*/
-
-@media (max-width: 768px) {
-
-   
-        .footer-content {
-            flex-direction: column;
-         
-        }
-    
-        .footer-section {
-            flex: none;
-            width: 100%;
-            margin-right: 0;
-            margin-bottom: 20px;
-            
-        }
-        .contato{
-            margin-inline: center;
-          
-        }
-        /*largura/ altura da imagem do icone*/
-        .icone{
-            width: 100%;
-            height: 60%;
-        }
-        .imagem{
-            width: 60%; 
-            height: 60%;
-            
-            }
-        .rodape{
-            height: 15rem;
-        }   
-       
-        
-       
-        
-    }

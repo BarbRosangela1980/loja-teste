@@ -8,11 +8,34 @@ body{
     background-size: cover;
    
 }
+@font-face {
+    font-family:"niagato" ;
+    src: url(Fonte/Niagato.ttf);
+}
+.logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    margin: 15px;
+}
+
 header{
     width: 100%;
-    height: 3rem;
-    background-color: rgb(217, 189, 147);
-    border-bottom: 3px solid #390404;
+    height: 10rem;
+    background-color: rgb(247, 242, 235);
+    border-bottom: 1px solid #390404;
+}
+h1{
+    margin-left:15%;
+    justify-content: center;
+    color: #211c1c;
+    font-size: x-large;
+    font-family: 'Niagato';
+    font-size: 70px;
+    margin-top: -6rem;
+
+
+   
 }
 
 main{
@@ -27,9 +50,7 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
-    
-    
+       
 }
 
 form {
@@ -74,27 +95,38 @@ legend h2{
     justify-content: center;
     margin-top: 0.5px;
 }
+/*MAPA*/
+h3 {
+    margin-top: 10rem;
+    text-align: center;
+    font-family: sans-serif,Verdana, Geneva, Tahoma;
+}
+iframe {
+    margin-left: 32%;
+    margin-top: -1rem;
+    margin-bottom: 5rem;
+
+}
 
 /*CLICK VOLTAR*/
 .voltar {
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 20px;
     color:#1b0cf5c0;
+    text-decoration:none;
     font-size: 20px;
+    margin-bottom: 3px;
+    
+    
 }
 .voltar :hover{
-    color:#cd0505;  
+    color:#cd0505; 
+    text-decoration:none; 
 }
-.footer{
-    color: rgb(13, 93, 163);
-    text-align: center;
-    background-color: rgb(217, 189, 147);
-    border-top: 3px solid #390404;
-    padding: 3rem;
-  
-}
+
+
 @media screen and (max-width: 768px){
     input[type="text"],
     input[type="email"],

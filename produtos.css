@@ -126,12 +126,6 @@ border:2px solid rgb(21, 1, 48);
 border-radius:5px;
 }
 
-.botao__comprar{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5px;
-}
-
 .card-imagem:hover{
 background-color: aliceblue;
 color: rgb(18, 16, 15);
@@ -235,6 +229,8 @@ border-radius:10px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
+    text-decoration: none;
+   
   }
  
 .card-description{
@@ -257,6 +253,7 @@ padding:20px 10px;
   margin-right: auto;
 
 }
+
 a{
   display: block;
   text-align: center;
@@ -272,13 +269,14 @@ a{
     color:#cd0505; 
   }
 
+
    /* Estilo do rodapé (footer) */
   .rodape{
     color: rgb(13, 93, 163);
     text-align: center;
     justify-content: center;
     background-color: rgb(217, 189, 147);
-    border-top: 3px solid #390404;
+    border-top: 1px solid #390404;
     padding: 3rem;
     height: 20vh;
     display: flex;
@@ -298,6 +296,7 @@ align-items: center;
 list-style: none;
 padding: 0;
 box-sizing: border-box;
+margin-right: 20px;
 
 }
 .redes-sociais ul{
@@ -318,6 +317,8 @@ height: 80%;
 width: 30%;
 display: flex;
 justify-content: center;
+
+
 }
 /*tamanho do icone*/
 .icone{
@@ -326,8 +327,8 @@ height: 10%;
 }
 
 .imagem{
-width: 100%; 
-height: 100%;
+width: 90%; 
+height: 90%;
 
 }
 .direitos-reservados{
@@ -458,4 +459,3 @@ height: 100%;
 
 
 
-produto HTLM
