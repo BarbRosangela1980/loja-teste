@@ -1,0 +1,94 @@
+*{
+    margin: 0; padding: 0;
+
+}
+
+@font-face {
+    font-family:"niagato" ;
+    src: url(Fonte/Niagato.ttf);
+}
+.logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    margin: 15px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-style: inherit;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 235, 215);
+    align-items: center;
+   
+}
+header{
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(247, 242, 235);
+    border-bottom: 1px solid #390404;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+       text-align:left;
+       color: #211c1c;
+       font-size: x-large;
+       font-family: 'Niagato';
+       font-size: 70px;
+        
+}
+.menu{
+    list-style:none; 
+    border: 20px;
+    color: #c0c0c0; 
+    float:left; 
+    font-weight: bold;
+    gap: 1px;
+    margin-bottom: 35px;
+    }
+
+    .menu li{
+    position:relative;
+    float:left;
+    border-right:1px solid #c0c0c0; 
+    } 
+
+    .menu li a{
+        color:#0f0f8d; 
+        text-decoration:none; 
+        padding:5px 10px; 
+        display:block;  
+        margin-right:15px;
+    }
+
+    .menu li a:hover{
+    color:#cd0562;
+   
+    text-shadow:0px 0px 5px #ffffff;
+    } 
+    .menu li ul{
+        position:absolute; 
+        top:25px; 
+        left:0;
+        background: color #f0111c;
+        display:none;
+        }
+            
+    .menu li:hover ul, .menu li.hover ul{display:block;} 
+             
+    .menu li ul li{
+        border:1px; 
+        color: #c0c0c0;
+        display:block; 
+        width:150px;
+    }

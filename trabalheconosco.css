@@ -1,35 +1,116 @@
+*{
+  margin: 0; padding: 0;
 
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgb(227, 201, 170);
-  }
+}
+
+body {
+ 
+  font-family: Arial, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(227, 201, 170);
+}
+header{
+  width: 100%;
+  height: 10rem;
+  background-color: rgb(247, 242, 235);
+  border-bottom: 1px solid #390404;
+}
+
+@font-face {
+  font-family:"niagato" ;
+  src: url(Fonte/Niagato.ttf);
+}
+.logo{
+  width: 120px;
+  height: 120px;
+  border-radius: 120px;
+  margin: 15px;
+}
+h1{
+  margin-left: 10rem;
+  margin-top: -7rem;
+  text-align:left;
+  color: #211c1c;
+  font-size: x-large;
+  font-family: 'Niagato';
+  font-size: 70px;
+   
+}
+h3{
+  margin-top: 10px;
+  margin-bottom: -5rem;
+  left: 5px;
+}
+.menu{
+list-style:none; 
+border: 20px;
+color: #c0c0c0; 
+float:right; 
+font-weight: bold;
+gap: 1px;
+margin-bottom: 35px;
+margin-top: -8rem;
+}
+
+.menu li{
+position:relative;
+float:right;
+border-right:1px solid #c0c0c0; 
+} 
+
+.menu li a{
+   color:#0f0f8d; 
+   text-decoration:none; 
+   padding:5px 10px; 
+   display:block;  
+   margin-right:3px;
+   font-size: 15px;
+}
+
+.menu li a:hover{
+color:#cd0562;
+
+text-shadow:0px 0px 5px #ffffff;
+} 
+.menu li ul{
+   position:absolute; 
+   top:25px; 
+   left:0;
+   background: color #f0111c;
+   display:none;
+   }
+       
+.menu li:hover ul, .menu li.hover ul{display:block;} 
+        
+.menu li ul li{
+   border:1px; 
+   color: #c0c0c0;
+   display:block; 
+   width:150px;
+}
+
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 5px;
   
-  header {
-    background-color: #333;
-    color: #cdcbd9;
-    padding: 10px;
-    font-size: 30px;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  nav li {
-    margin-right: 20px;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-  }
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+ 
   
   section h2 {
     padding: 20px;

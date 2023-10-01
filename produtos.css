@@ -292,7 +292,7 @@ flex-direction: column;
 align-items: center;
 }
 
-.icone ul {
+.icone ul{
 list-style: none;
 padding: 0;
 box-sizing: border-box;
@@ -312,7 +312,7 @@ margin-right: 20px;
 
 }
 
-.redes-sociais ul li {
+.redes-sociais ul li{
 height: 80%;
 width: 30%;
 display: flex;
