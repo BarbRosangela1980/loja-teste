@@ -1,6 +1,4 @@
 .rodape {
-
-    height:30vh;
     color: rgb(13, 93, 163);
     text-align: center;
     background-color: rgb(217, 189, 147);
@@ -8,62 +6,69 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 1rem;
 }
 
-.contato{
-    margin-inline: center;
-    display: block;
-    text-align: center;
-    justify-content: center;
-    font-size: 16px;
-  
+p {
+    margin: 0;
 }
 
 .footer ul {
     list-style: none;
     padding: 0;
     box-sizing: border-box;
-    
 }
-.redes-sociais ul{
-    list-style-type:none;
+.redes-sociais {
+    width: 100%;
+    height: 5rem;
     display: flex;
-    height: 100%;
-    width: 30%; 
-     
+    margin-left: auto;
+    margin-right: auto;
 }
-.redes-sociais{
-    width: 50%;
-    height: 50%;
+
+.redes-sociais a {
+    width: calc(100% / 3);
+    height: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.redes-sociais ul li {
-    margin-bottom: 8px;
-    box-sizing: border-box;
-    width: calc(80% / 3);
-    height: 100%;
-  
-}
-/*largura-altura da imagem do icone*/
-.icone{
-    width: 80%;
-    height: 100%;
+.redes-sociais a img {
+    height: 80%;
 }
 
-.imagem{
-width: 100%; 
-height: 50%;
-
-}
 /*margem do copy hite e dados de contato*/
-.direitos-reservados{
+.direitos-reservados {
     margin-top: 4rem;
-    
 }
-.direitos-reservados p{
+.direitos-reservados p {
     font-weight: bold;
     color: black;
-   
+}
+
+/*responsivo*/
+
+@media (max-width: 768px) {
+    .redes-sociais a {
+        height: 80%;
+    }
+
+    .footer {
+        flex-direction: column;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .contato {
+        margin-left: 5%;
+    }
+
+    .redes-sociais img {
+        max-width: 100%; /* Garanta que a imagem não ultrapasse a largura do contêiner pai */
+        height: auto; /* Mantenha a proporção da imagem */
+    }
+    .redes-sociais ul {
+        width: 60%;
+    }
 }

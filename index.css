@@ -3,20 +3,7 @@
 
 }
 
-@font-face {
-    font-family:"niagato" ;
-    src: url(Fonte/Niagato.ttf);
-}
-.logo{
-    width: 120px;
-    height: 120px;
-    border-radius: 120px;
-    margin: 15px;
-}
-
 body{
-
-
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     font-style: italic;
@@ -27,83 +14,10 @@ body{
     flex-direction: column;
 }
 
-h1{
-       text-align:left;
-       color: #211c1c;
-       font-size: x-large;
-       font-family: 'Niagato';
-       font-size: 70px;
-        
+@font-face {
+    font-family:"niagato" ;
+    src: url(Fonte/Niagato.ttf);
 }
-.titulo-texto h2{
-    text-align:left;
-    color: #211c1c;
-    font-size: x-large;
-    font-family:'Poppins, Helvetica, sans-serif';
-    font-size: 50px;
-    margin-left: 5%;  
-}
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
- h3{
-        text-align:left;
-        margin: 100px;
-        color: #121111;
-        font-size: x-large;
-        font-family: 'Poppins, Helvetica, sans-serif';
-        font-size: 38px;
-        margin-top: 5px; 
-}
-.menu{
-    list-style:none; 
-    border: 20px;
-    color: #c0c0c0; 
-    float:left; 
-    font-weight: bold;
-    gap: 1px;
-    margin-bottom: 35px;
-    }
-
-    .menu li{
-    position:relative;
-    float:left;
-    border-right:1px solid #c0c0c0; 
-    } 
-
-    .menu li a{
-        color:#0f0f8d; 
-        text-decoration:none; 
-        padding:5px 10px; 
-        display:block;  
-        margin-right:15px;
-    }
-
-    .menu li a:hover{
-    color:#cd0562;
-   
-    text-shadow:0px 0px 5px #ffffff;
-    } 
-    .menu li ul{
-        position:absolute; 
-        top:25px; 
-        left:0;
-        background: color #f0111c;
-        display:none;
-        }
-            
-    .menu li:hover ul, .menu li.hover ul{display:block;} 
-             
-    .menu li ul li{
-        border:1px; 
-        color: #c0c0c0;
-        display:block; 
-        width:150px;
-
-    }
 
 .texto{
   column-count: 1; /* Número de colunas */
@@ -116,76 +30,7 @@ nav{
   text-align: justify;
   font-size: 1.5em;
   margin-top: -4rem;
- 
 }
-   
-.rodape {
-
-    height:30vh;
-    color: rgb(13, 93, 163);
-    text-align: center;
-    background-color: rgb(217, 189, 147);
-    border-top: 1px solid #390404;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contato{
-    margin-inline: center;
-    display: block;
-    text-align: center;
-  
-}
-
-.footer ul {
-    list-style: none;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-.redes-sociais ul{
-    list-style-type:none;
-    display: flex;
-    height: 100%;
-    width: 30%; 
-     
-}
-.redes-sociais{
-    width: 50%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-}
-
-.redes-sociais ul li {
-    margin-bottom: 8px;
-    box-sizing: border-box;
-    width: calc(80% / 3);
-    height: 100%;
-  
-}
-.icone{
-    width: 50%;
-    height: 90%;
-}
-
-.imagem{
-width: 90%; 
-height: 50%;
-
-}
-/*margem do copy hite e dados de contato*/
-.direitos-reservados{
-    margin-top: 4rem;
-    
-}
-.direitos-reservados p{
-    font-weight: bold;
-    color: black;  
-   
-}
-
 
 /*responsivo*/
 
@@ -201,34 +46,5 @@ height: 50%;
   width: 100%; 
 
 }
-    .footer-content {
-        flex-direction: column;
-       
-     
-    }
-
-    .footer-section {
-        flex: none;
-        width: 100%;
-        margin-right:0;
-        margin-bottom: 20px;
-        
-    }
-    .contato{
-        margin-left: 5%;
-    }
-    
-   
-        .imagem {
-            max-width: 100%; /* Garanta que a imagem não ultrapasse a largura do contêiner pai */
-            height: auto; /* Mantenha a proporção da imagem */
-
-        }
-        .redes-sociais ul{
-            
-            width: 60%;
-        }
-
-
    
 }

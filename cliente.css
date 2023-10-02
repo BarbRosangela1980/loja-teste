@@ -1,135 +1,47 @@
-*{
-    margin: 0; padding: 0;
-
+* {
+    margin: 0;
+    padding: 0;
 }
 
 @font-face {
-    font-family:"niagato" ;
+    font-family: "niagato";
     src: url(Fonte/Niagato.ttf);
-}
-.logo{
-    width: 120px;
-    height: 120px;
-    border-radius: 120px;
-    margin: 15px;
 }
 
 body {
-    font-family: 'Poppins, Helvetica, sans-serif';
+    font-family: "Poppins, Helvetica, sans-serif";
     background-image: url(imagem/garoto.jpg);
     background-repeat: no-repeat;
     font-size: 15px;
     font-style: italic;
     font-style: inherit;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- 
-}
-    
-header{
-    width: 100%;
-    height: 10rem;
-    background-color: rgb(247, 242, 235);
-    border-bottom: 1px solid #390404;
-}
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-h1{
-       text-align:left;
-       color: #211c1c;
-       font-size: x-large;
-       font-family: 'Niagato';
-       font-size: 70px;
-        
-}
-.menu{
-    list-style:none; 
-    border: 20px;
-    color: #c0c0c0; 
-    float:left; 
-    font-weight: bold;
-    gap: 1px;
-    margin-bottom: 35px;
-    }
-
-    .menu li{
-    position:relative;
-    float:left;
-    border-right:1px solid #c0c0c0; 
-    } 
-
-    .menu li a{
-        color:#0f0f8d; 
-        text-decoration:none; 
-        padding:5px 10px; 
-        display:block;  
-        margin-right:15px;
-    }
-
-    .menu li a:hover{
-    color:#cd0562;
-   
-    text-shadow:0px 0px 5px #ffffff;
-    } 
-    .menu li ul{
-        position:absolute; 
-        top:25px; 
-        left:0;
-        background: color #f0111c;
-        display:none;
-        }
-            
-    .menu li:hover ul, .menu li.hover ul{display:block;} 
-             
-    .menu li ul li{
-        border:1px; 
-        color: #c0c0c0;
-        display:block; 
-        width:150px;
-    }
-
-
-
-.titulo h1 {
-    color:#111;
-    font-size:x-large ;
-    text-align: left;
-    font-size: 45px;
-    font-style: italic;
+    height: auto;
 }
 
 h2 {
-    color:#111;
-    font-size:x-large ;
+    color: #111;
+    font-size: x-large;
     font-size: 25px;
     font-style: normal;
 }
 
 h3 {
     color: #111;
-    font-size:x-large ;
+    font-size: x-large;
     font-size: 25px;
     font-style: normal;
 }
 
 form {
     display: flex;
-    
-  }
- 
+}
 
 .input-hover:hover {
     border-color: #111;
-    background:#111;
+    background: #111;
     display: inline-flex;
-    color:#ffffff;
+    color: #ffffff;
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
@@ -138,8 +50,7 @@ form {
     cursor: pointer;
 }
 
-a {
-    
+.voltar {
     display: block;
     text-align: left;
     text-decoration: none;
@@ -149,89 +60,16 @@ a {
     font-size: 25px;
     margin-top: 5rem;
     margin-bottom: 2px;
-  }
-
-  a:hover {
-    color:#cd0505; 
-}
-
-.rodape {
-
-    height:30vh;
-    color: rgb(13, 93, 163);
-    background-color: rgb(217, 189, 147);
-    border-top: 1px solid #390404;
-    display: flex;
-    align-items: center;
-    padding-left: 5%;
-    
-
-    
-}
-
-.contato{
-    display: block;
     text-align: center;
-    font-size: 16px;
-    justify-items: auto;
 }
 
-.footer ul {
-    list-style: none;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-.redes-sociais ul{
-    list-style-type:none;
-    display: flex;
-    height: 100%;
-    width: 30%; 
-     
-}
-.redes-sociais{
-    width: 50%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
+.voltar:hover {
+    color: #cd0505;
 }
 
-.redes-sociais ul li {
-    margin-bottom: 8px;
-    box-sizing: border-box;
-    width: calc(100% / 3);
-    height: 90%; 
-    margin-top: -3rem;
-    justify-content: center;
-    
-  
-}
-/*largura-altura da imagem do icone*/
-.icone{
-    width: 80%;
-    height: 100%;
-}
+/* Responsivo */
 
-.imagem{
-width: 100%; 
-height: 50%;
-
-}
-/*margem do copy hite e dados de contato*/
-.direitos-reservados{
-    margin-top: 4rem;
-    
-}
-.direitos-reservados p{
-    font-weight: bold;
-    color: black;
-   
-}
-
-
-  /* Responsivo */
-  
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     input[type="text"],
     input[type="email"],
     input[type="tel"],
@@ -240,10 +78,6 @@ height: 50%;
     input[type="passconfirm"],
     input[type="Limpar"],
     textarea {
-    width: 100%;
+        width: 100%;
     }
-    .rodape{
-        margin: 0;
-    }
-
 }
