@@ -44,17 +44,34 @@ body{
 .descricao-loja {
   width: 100%; 
 }
-
-h2{
-  margin-left: 10%;
-  margin-right: 10%;
-  
-
 }
-.titulo-texto h3{
-  margin-left: 10%;
-  margin-right: 10%;
+@media (max-width: 480px) {
 
+  .titulo-texto h3 {
+  margin-left: 19%;
+  margin-right: 20%;
+
+ 
 }
-   
+.subtitulo h3 {
+  margin-left: 13%;
+  margin-right: 10%;
+  margin-top: -5rem;
+ 
+}
+}
+@media (max-width: 468px) {
+
+  .titulo-texto h3 {
+  margin-left: 0%;
+  margin-right: 0%;
+
+ 
+}
+.subtitulo h3 {
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: -5rem;
+ 
+}
 }
