@@ -80,4 +80,10 @@ form {
     textarea {
         width: 100%;
     }
+    .titulo {
+       
+        display: flex;
+        justify-content: center;
+        
+    }
 }

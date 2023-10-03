@@ -58,7 +58,7 @@ b {
 
     main {
         flex-direction: column;
-        height: 190vh;
+        height: 200vh;
     }
     .minha-historia{
         margin-bottom: -8rem;
@@ -74,7 +74,7 @@ b {
         margin-top: 7rem;
     }
     h2{
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .texto {

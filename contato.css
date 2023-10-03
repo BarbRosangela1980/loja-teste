@@ -1,5 +1,16 @@
 /*CSS DO CONTATO*/
 
+body {
+   
+    background-color: rgb(250, 235, 215);
+   
+}
+
+header {
+    background-color: rgb(247, 242, 235);
+    border-bottom: 1px solid #390404;
+}
+
 
 main{
     display: flex;
@@ -64,22 +75,12 @@ legend h2{
     justify-content: center;
     margin-top: 0.5px;
 }
-/*MAPA*/
-h3 {
-    margin-top: 10rem;
-    text-align: center;
-    font-family: sans-serif,Verdana, Geneva, Tahoma;
 
-}
-
-.subtitulo {
-    text-align: center;
-    margin-top: 2rem;
-}
 
 .map-responsive {
     display: flex;
     justify-content: center;
+    margin-top: 7rem;
 }
 
 iframe {
@@ -141,6 +142,11 @@ iframe {
     
     .img-e-formulario {
         height: 100vh;
+       
+    }
+    .map-responsive{
+        margin-left: 10%;
+        margin-right:10% ;
        
     }
 }

@@ -41,9 +41,19 @@ body{
   align-items: center;
 }
 
-
 .descricao-loja {
   width: 100%; 
+}
+
+h2{
+  margin-left: 10%;
+  margin-right: 10%;
+  
+
+}
+.titulo-texto h3{
+  margin-left: 10%;
+  margin-right: 10%;
 
 }
    
