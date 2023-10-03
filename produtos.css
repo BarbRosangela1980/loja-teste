@@ -21,7 +21,7 @@
   width: 50px;/*tamanho do carrinho*/
   height: 50px;/*tamanho do carrinho*/
   border-radius: 50px;
-  margin-left: 90%;/*posição do carrinho-margem lateral*/
+  margin-left: 80%;/*posição do carrinho-margem lateral*/
   margin-bottom: -4rem;/*margem entre o carrinho e os produtos*/
 
 }
@@ -303,6 +303,9 @@ padding:20px 10px;
   }
   .carrinho{
     position:var(100%)
+  }
+  footer{
+    width: 100%;
   }
 
 }

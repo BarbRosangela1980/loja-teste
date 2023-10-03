@@ -58,7 +58,7 @@ b {
 
     main {
         flex-direction: column;
-        height: 200vh;
+        height: 170vh;
     }
     .minha-historia{
         margin-bottom: -8rem;
@@ -83,6 +83,39 @@ b {
         text-align: justify;
     }
 }
+
+@media (max-width: 355px) {
+
+    main {
+        flex-direction: column;
+        height: 220vh;
+    }
+    .minha-historia{
+        margin-bottom: -8rem;
+    }
+
+    .img-titulo {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .img-titulo img {
+        height: 10%;
+        margin-top: 7rem;
+    }
+    h2{
+        font-size: 25px;
+    }
+
+    .texto {
+        width: 90%;
+        padding-top: 3rem;
+        text-align: justify;
+    }
+}
+
+
+
 
 .descricao-loja {
     width: 100%;
